@@ -3,12 +3,13 @@ package com.app.onkarn.compareimage;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
-import android.widget.ImageView;
+
+import androidx.appcompat.widget.AppCompatImageView;
 
 /**
  * Created by onkar_nene on 02-02-2016.
  */
-public class ResizableImageView extends ImageView {
+public class ResizableImageView extends AppCompatImageView {
     public ResizableImageView(Context context, AttributeSet attributeSet) {
         super(context,attributeSet);
     }
